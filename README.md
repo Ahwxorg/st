@@ -3,9 +3,11 @@
 ## Install
 
 ```
+mv ~/.Xresources ~/.Xresources.pre-pt
+wget https://raw.githubusercontent.com/Prifixy/pt/main/.Xresources ~/.Xresources
 git clone https://github.com/prifixy/pt
 cd pt
-sudo make clean install 
+sudo make clean install
 xrdb merge ~/.Xresources
 ```
 
