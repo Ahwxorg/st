@@ -1,5 +1,3 @@
-! credits to siduck
-
 Xft.antialias:	1
 Xft.hinting:	1
 Xft.autohint:	0
@@ -13,41 +11,41 @@ st.font:         JetBrainsMono Nerd Font:style:medium:pixelsize=13
 st.borderpx: 0
 
 !- 0.1 to 0.9 = transparency
-st.alpha: 1.0
+st.alpha: 0.9
 
 ! *background: #181f21
 ! *foreground: #dadada
-*background: #191724
-*foreground: #ef6f92 
+*background: #282828
+*foreground: #ebdbb2
 
 ! Black + DarkGrey
-*color0:  #191724
-*color8:  #575e60
+*color0:  #928374
+*color8:  #a89984
 
 ! DarkRed + Red
-*color1:  #e06e6e
-*color9:  #8b000e 
+*color1:  #cc241d
+*color9:  #fb4934 
 
 ! DarkGreen + Green
-*color2:  #8ccf7e
-*color10: #74f4a4 
+*color2:  #98971a
+*color10: #b8bb26 
 
 ! DarkYellow + Yellow
-*color3:  #e5c76b
-*color11: #c19b11 
+*color3:  #d79921
+*color11: #fabd2f
 
 ! DarkBlue + Blue
-*color4:  #67b0e8
-*color12: #1aa8a6 
+*color4:  #458588
+*color12: #83a598
 
 ! DarkMagenta + Magenta
-*color5:  #c47fd5
-*color13: #ee6feb 
+*color5:  #8f3f71
+*color13: #b16286
 
 ! DarkCyan + Cyan
-*color6:  #6da4cd
-*color14: #9ccfd8 
+*color6:  #076678
+*color14: #458588
 
 ! LightGrey + White
-*color7:  #b3b9b8
-*color15: #fbf1c7 
+*color7:  #a89984
+*color15: #fbf1c7
