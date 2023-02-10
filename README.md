@@ -1,4 +1,4 @@
-# pt: perfect terminal (suckless + colors using xresources)
+## suckless terminal (perfect + colors using xresources)
 
 ## Install
 
