@@ -1,14 +1,13 @@
-# pt: perfect terminal (suckless + colors using ~/.Xresources)
+# pt: perfect terminal (suckless + colors using xresources)
 
 ## Install
 
 ```
-mv ~/.Xresources ~/.Xresources.pre-pt
-wget https://raw.githubusercontent.com/Prifixy/pt/main/.Xresources ~/.Xresources
-git clone https://github.com/prifixy/pt
-cd pt
+wget https://raw.githubusercontent.com/Ahwxorg/st/main/.Xresources ~/.config/Xresources
+git clone https://github.com/ahwxorg/st
+cd st
 sudo make clean install
-xrdb merge ~/.Xresources
+xrdb merge ~/.config/Xresources
 ```
 
 (note : put the xrdb merge command in your wm's autostart or similar) 
